@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Official Play4Fun Website | Play4Fun</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Official Play4Fun Website">
+        <meta name="keywords" content="Play4Fun">
+        <meta name="author" content="Mateusz Czekała">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css_test/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Bungee|Open+Sans:300,400,600,700,800|Roboto:300,400,500,700,900&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="icon" sizes="192x192" href="img_test/android-chrome-192x192.png">
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="img_test/apple-touch-icon.png">
+    </head>
+    <body id="pl" onload="startDisplay()">
+        
+        <div class="container">
+            <header>
+                <div id="language">
+                    <a id="lang_pl" href="index_test.html">pl</a>
+                    <p>|</p>
+                    <a id="lang_en" href="en.html">en</a>
+                </div>
+                
+                <a id="logo" href="index_test.html" >
+                    <img src="img_test/logo.png" alt="logo" height="69" width="334">
+                </a>
+                
+                <nav>
+                    <p id="nav_index"></p>
+                    
+                    <div id="hamburger" class="hamburger hamburger--emphatic" onclick="showMenu()">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </div>
+                    
+                    <ul id="nav_box">
+                        <li id="nav_shop"><a href="https://supercoinsy.pl/">Sklep</a></li>
+                        <li id="nav_home" onclick="toggleOnHome()">Home</li>
+                        <li id="nav_contact" onclick="toggleOnContact()">Kontakt</li>
+                        <li id="nav_login">Logowanie
+                            <ul id="content_login">
+                                <li id="box_play-4fun">
+                                    Play-4Fun
+                                    <ul id="content_box_play-4fun">
+                                        <li><a href="https://www.play-4fun.eu:2096/" target="_blank">Webmail</a></li>
+                                    </ul>
+                                </li>
+                                <li id="box_play4games">
+                                    Play4Games
+                                    <ul id="content_box_play4games">
+                                        <li><a href="https://cp.oiq.pl:2096/" target="_blank">Webmail</a></li>
+                                        <li><a href="https://cp.oiq.pl/poczta/" target="_blank">RainLoop</a></li>
+                                    </ul>
+                                </li>
+                                <li id="language_mobile"><a id="lang_pl_mobile" href="index_test.html">pl</a><p>|</p><a id="lang_en_mobile" href="en.html">en</a>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <section>
+                <h1>Play4Fun</h1>
+                <article>
+                    <img id="bg_mobile" src="img_test/bg.jpg" alt="Kratos and Atreus fighting the monster" height="796" width="443">
+                    <img id="textbg" src="img_test/textbg.png" alt="grey background for text" height="398" width="649">
+                    
+                    <div id="content_home">
+                        <div id="text">
+                            <h2 id="text_part_one"><span>Najlepsze ceny na rynku!</span> Jesteś zainteresowany</h2>
+                            <h2 id="text_part_two">kupnem detalicznym? <span>Zapraszamy do kontaktu.</span></h2>
+                        </div>
+                        
+                        <div id="slogan">
+                            <h3>NAJPEWNIEJ</h3>
+                            <h3>NAJTANIEJ</h3>
+                            <h3>NAJBEZPIECZNIEJ</h3>
+                        </div>
+                    </div>
+
+                    <div id="content_contact">
+                        <h4 id="fb">Facebook: <a href="https://www.facebook.com/Play4FunStore/" target="_blank">Odwiedź nasz fanpage</a></h4>
+                        <h4 id="mail">E-mail: <span>Play4Kontakt@gmail.com</span></h4>
+                        <h4 id="gg">GG: <span>557243</span></h4>
+                    </div>
+
+                </article>
+            </section>
+            
+            <footer>  
+                
+                <a href="index_test.html">www.<span>play-4fun</span>.eu</a>
+
+                <h5 id="copyright">Copyright © 2017 Play4Fun. All Rights Reserved.</h5>
+
+                <div id="authors">
+                    <h5>Wykonianie: <span>Mateusz Czekała</span></h5>
+                    <h5>Projekt graficzny: <span>nevStudio</span></h5> 
+                </div>
+
+            </footer>
+        </div>
+        
+        <script src="js_test/script.js" async></script>
+    </body>
+</html>
